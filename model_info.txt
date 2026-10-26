@@ -1,0 +1,21 @@
+==================================================
+  MOVIE RATING PREDICTION MODEL INFO
+  Afame Technologies | Ratnakar Patra
+==================================================
+
+Best Model       : Gradient Boosting
+
+All Model Results:
+  Model                       MAE     RMSE       R2
+  --------------------------------------------------
+  Linear Regression        0.4772   0.6445   0.7757
+  Ridge Regression         0.4772   0.6445   0.7757
+  Decision Tree            0.4854   0.6978   0.7371
+  Random Forest            0.4012   0.5844   0.8156
+  Gradient Boosting        0.3988   0.5656   0.8272  <-- BEST
+
+Dataset Rows     : 5659
+Training Samples : 4527
+Test Samples     : 1132
+Features Used    : ['Year', 'Duration', 'Log_Votes', 'Movie_Age', 'Genre_enc', 'Director_enc', 'Actor_1_enc', 'Actor_2_enc', 'Actor_3_enc']
+Encoding Method  : Target Encoding (mean rating per category)

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env/
+.venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Dataset (large file — do not upload to GitHub)
+dataset/movies_data.csv
+
+# Saved Models (large files)
+models/*.pkl
+models/*.joblib
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store
+
+# OS
+Thumbs.db
